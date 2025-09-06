@@ -1,0 +1,136 @@
+<!DOCTYPE HTML>
+<!--
+	Landed by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+        <title>Craig Ware | Data Analyst Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="index.html">Craig Ware | Data Analyst</a></h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li>
+								<a href="#">Projects</a>
+								<ul>
+									<li><a href="delivery-performance-and-customersatisfaction-analysis.html">Delivery Performance and Customer Satisfaction Analysis | <i>SQL & Tableau</i></a></li>
+									<li><a href="video-game-sales.html">Video Games Sales EDA | <i>SQL</i></a></li>
+									<li><a href="netflix.html">Netflix Content Prediction | <i>Python</i></a></li>
+									<li><a href="hr.html">HR Analytics | <i>Tableau</i></a></li>
+									<!-- <li> -->
+										<!-- <a href="#">Submenu</a>
+										<ul>
+											<li><a href="#">Option 1</a></li>
+											<li><a href="#">Option 2</a></li>
+											<li><a href="#">Option 3</a></li>
+											<li><a href="#">Option 4</a></li>
+										</ul>
+									</li> -->
+								</ul>
+							</li>
+							<!-- <li><a href="elements.html">Elements</a></li> -->
+							<!-- <li><a href="#" class="button primary">Sign Up</a></li> -->
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Main -->
+				<div id="main" class="wrapper style1">
+					<div class="container">
+						<header class="major">
+							<h2>🚗 Uber Fare Prediction Model | <i>Python</i></h2>
+						</header>
+
+						<!-- Content -->
+							<section id="content">
+								<!-- <a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a> -->
+
+								<h3>Overview:</h3>
+								<!-- <p>
+									<a href="https://drive.google.com/file/d/16ndlAe8GGmj2yX6Wthz6qQzzvlug-Mdk/view?usp=sharing" target="_blank">Exploratory Data Analysis - SQL File</a> | 
+									<a href="https://drive.google.com/file/d/1RMeQqdxqV1HyhgicUu8C6oF3czkNkUQH/view?usp=sharing" target="_blank">Link to csv</a> |
+									<a href="https://www.kaggle.com/datasets/gregorut/videogamesales" target="_blank">Kaggle dataset</a> | 
+									<a href="https://github.com/CraigJustin92/vgsales-EDA-on-SQL/tree/main" target="_blank">View project on GitHub</a>
+								</p> -->
+
+
+<p>
+This project explores the <a href="https://www.kaggle.com/datasets/kushsheth/uber-ride-price-prediction/data" target="_blank"><strong>Uber Ride Price Prediction</strong></a> dataset using Python to build a model for estimating fares based on distance, passenger count, and time of day.
+The workflow includes data cleaning, feature engineering (trip distance, rush hour, seasonality), and log transformation of fares to reduce skewness. 
+Key libraries such as pandas, NumPy, seaborn, and matplotlib were used for data manipulation and visualization, while scikit-learn handled scaling, splitting data, and error metrics (MSE, MAE). 
+The predictive model was built using Ordinary Least Squares (OLS) regression with statsmodels, supported by statistical tests and residual analysis to evaluate fit and assumptions.
+</p>
+
+<p><strong>Data Preparation</strong></p>
+<ul>
+  <li><strong>Cleaning:</strong> Validated coordinates and selected relevant features.</li>
+  <li><strong>Feature Engineering:</strong> Calculated trip distance and added a season variable from pickup date.</li>
+  <li><strong>Transformation:</strong> Log-transformed <code>fare_amount</code> to reduce skewness.</li>
+  <li><strong>Scaling:</strong> Applied StandardScaler for consistent feature scaling.</li>
+</ul>
+
+<p><strong>Key Findings</strong></p>
+<ul>
+  <li><strong>Correlation:</strong> Distance strongly correlates with fare (Pearson r = 0.74).</li>
+</ul>
+
+<p><strong>Model Performance</strong></p>
+<ul>
+  <li><strong>R²:</strong> 0.634 (model explains 63.4% of variance).</li>
+  <li><strong>Adjusted R²:</strong> Confirms feature relevance.</li>
+  <li><strong>Coefficients:</strong> +$0.37 per mile, +$0.005 per passenger, +$0.01 during rush hour.</li>
+  <li><strong>MSE:</strong> 0.080 | <strong>MAE:</strong> 0.207.</li>
+  <li><strong>Residuals:</strong> Roughly normal, with minor deviations suggesting outliers.</li>
+</ul>
+
+
+  <!-- <p>
+    This analysis uses aggregate functions, CTEs, window functions, and pattern matching to generate actionable insights. <br>
+	I've also included a Tableau dashboard to visualize the data and findings.
+  </p> -->
+  <ul class="actions">
+	<li><a href="https://drive.google.com/file/d/1PvWRN_uJ209oecKddMX66xPj22C0QDl_/view?usp=sharing" class="button" target="_blank">Jupyter Notebook - Google Colaboratory</a></li>
+    <!-- <li><a href="https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce/data?select=olist_orders_dataset.csv" class="button" target="_blank">Kaggle Dataset</a></li> -->
+    <!-- <li><a href="https://public.tableau.com/views/Book1_17561747767990/SalesDeliveryPerformanceDashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" class="button" target="_blank">View Tableau Dashboard</a></li> -->
+    <li><a href="https://github.com/CraigJustin92/Uber-Fare-Prediction-Model" class="button" target="_blank">View project on GitHub</a></li>
+  </ul>
+					</div>
+				</div>
+				
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="http://linkedin.com/in/craig-w-0759189b" target="_blank" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/CraigJustin92" target="_blank" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+						<!-- <li><a href="mailto:craigjustin92@gmail.com" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li> -->
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
